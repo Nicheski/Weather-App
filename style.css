@@ -1,0 +1,79 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://cutewallpaper.org/21/rain-background-gif/Freezing-rain-GIFs-Get-the-best-GIF-on-GIPHY.gif')
+    no-repeat center center/cover; 
+
+    
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+
+}
+
+label {
+    padding: 20px;
+}
+
+input {
+    width: 40vw;
+    margin: 20px;
+    height: 30px;
+   border:none;
+   border:1px solid lightseagreen;
+   outline: none;
+   
+}
+
+::placeholder{
+padding: 20px;
+}
+
+button{
+    padding: 15px;
+    border-radius: 7px;
+    background: lightseagreen;
+    color: #ffffff;
+    font-weight: bold;
+    border-color: lightseagreen;
+    outline: none;
+}
+
+
+.itm{
+    background: white;
+    padding: 50px;
+ opacity: 0.3;
+    text-align: center;
+    margin: 50px 200px;
+    line-height: 1.8;
+   
+   
+ 
+}
+
+h1,p{
+    color:darkblue;
+  
+  
+}
